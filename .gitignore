@@ -1,0 +1,27 @@
+# Root gitignore for monorepo
+
+# Maven / Quarkus
+**/target/
+**/.quarkus/
+
+# Node
+**/node_modules/
+**/dist/
+**/dist-ssr/
+
+# Env files
+.env
+.env.*
+
+# IDEs
+.idea/
+**/*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS
+.DS_Store
+Thumbs.db
+
